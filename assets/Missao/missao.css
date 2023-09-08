@@ -16,7 +16,6 @@ section.missao .flex{
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
-    width: 100vw;
     justify-content: center;
 }
 
