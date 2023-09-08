@@ -19,7 +19,6 @@ section.assessorias .flex{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    width: 100vw;
     justify-content: center;
 }
 
