@@ -1,0 +1,273 @@
+/* Reset básico de CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Definindo box-sizing para evitar problemas de layout */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
+
+
+.nav{
+    background-color: #FFFF;
+    padding: 6px;
+    
+}
+.lista-items{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.lista-items li{
+    margin: 0;
+    list-style: none;
+    
+}
+
+.lista-items li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #333;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.lista-items li a:hover{
+    color: #727272;
+}
+
+.background{
+    background-image: url('./imagens/background.png') !important;
+    width: 1920px;
+    height: 788px;
+    
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobreNos{
+    padding: 0 20% 0 20%;
+}
+
+.sobreNos H1{
+    padding: 200px 0 40px 0;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.texto-sobrenos p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.texto-sobrenos button{
+    background-color: #FD408E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFF;
+    border-radius: 40px;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.texto-sobrenos button:hover{
+    background-color: #F65497;
+}
+
+.missao h2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.imagem img{
+    width: 601px;
+    height: 338px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 50px;
+    flex-wrap: wrap;
+}
+
+.container .cards{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background: #FFF;
+    list-style: none;
+}
+
+.caixaImg img{
+    width: 350px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.conteudo-cards h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteudo-cards p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+.solucoes{
+    background-color: #D9DADC;
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.solucoes{
+    display: flex;
+    width: 100vw;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px 50px;
+    flex-wrap: wrap;
+}
+
+
+.card-solucoes{
+    position: relative;
+    width: 281px;
+    height: 385px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.card-solucoes span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #F65497);
+    animation: animar1 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animar1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.card-solucoes span:nth-last-of-type(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #F65497);
+    animation: animar2 2s linear infinite;
+    
+}
+
+@keyframes animar2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+
+.card-solucoes span:nth-last-of-type(3){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #F65497);
+    animation: animar3 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animar3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+.card-solucoes span:last-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #F65497);
+    animation: animar4 2s linear infinite;
+   
+}
+
+@keyframes animar4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}

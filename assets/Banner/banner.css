@@ -1,0 +1,53 @@
+.banner{
+    background: url('../../imagens/Banner-CaMkt-2.jpg');
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+}
+
+.container-banner{
+    display: flex;
+    height: 100vh;
+}
+
+.container-banner button{
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FD408E;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.container-banner button:hover{
+    background-color: #f50669;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .banner{
+        background: url('../../imagens/Banner-CaMkt-Mobile-JPEG-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .container-banner{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-banner button{
+        margin-top: 680px;
+    }
+    
+}

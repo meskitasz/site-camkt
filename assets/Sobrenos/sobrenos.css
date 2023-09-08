@@ -1,0 +1,115 @@
+h1{
+    padding: 80px 0 80px 0 ;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.conteudo{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 100px;
+}
+
+.texto-sobrenos{
+    width: 700px;
+    
+}
+
+.texto-sobrenos p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+    line-height: 30px;
+}
+
+.texto-sobrenos button{
+    background-color: #FD408E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 40px;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    margin-top: 30px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.texto-sobrenos button:hover{
+    transform: scale(1.1);
+}
+
+.conteudo .imagem img{
+    width: 600px;
+    border-radius: 35px;
+    transition: ease-in-out .2s;
+    box-shadow:  0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo .imagem img:hover{
+    transform: scale(1.1);
+}
+
+/* Mobile */
+
+@media screen and (max-width: 450px) and (min-width: 361px){
+    h1{
+        font-size: 46px;
+    }
+
+    .conteudo{
+        flex-wrap: wrap;
+    }
+
+    .conteudo .imagem img{
+        width: 350px !important;
+    }
+
+    .texto-sobrenos p{
+        font-size: 16px !important;
+        padding: 0 15px 0 15px;
+        text-align: justify;
+    }
+
+    .texto-sobrenos button{
+        margin-left: 8px;
+        font-size: 18px;
+    }
+
+   
+}
+
+
+/* Notebooks */
+
+@media screen and (max-width: 1336px) {
+
+    .texto-sobrenos{
+        width: 580px;
+        
+    }
+
+    .texto-sobrenos p{
+        font-size: 18px;
+    }
+
+
+    .conteudo .imagem img{
+        width: 500px;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    .conteudo{
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+}
