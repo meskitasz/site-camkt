@@ -1,7 +1,8 @@
 section.missao{
-    
+    width: 100%;
+    padding: 20px;
     background-color: #D9DADC;
-    height: 750px;
+    
 }
 
 section.missao  h2{
@@ -67,38 +68,18 @@ section.missao .flex{
     color: #F65497;
 }
 
-/* notebook */
-
-@media screen and (max-width: 1336px){
-
-    section.missao{
-        height: 200px;
-    }
-
-    h2{
-        padding-top: 50px;
-    }
-
-    section.missao .flex{
-        gap: 20px;
-    }
-    
-    .missao .cards{
-        width: 270px;
-    }
-}
 
 /* Versão Mobile */
 
 @media screen and (max-width: 768px){
 
     section.missao{
-        height: 1850px;
+        height: 100%;
     }
 
     section.missao  h2{
         font-size: 36px;
-        margin-bottom: 20px;
+        padding: 30px;
     }
 
     section.missao .container h2{
