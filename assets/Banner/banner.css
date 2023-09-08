@@ -9,7 +9,7 @@
 
 .container-banner{
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 
 .container-banner button{
@@ -37,8 +37,12 @@
     }
 
     .container-banner{
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
+    }
+
+    .container-banner button{
+        margin-bottom: 60px;
     }
   
 }
