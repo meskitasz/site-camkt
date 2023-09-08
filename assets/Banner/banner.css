@@ -27,11 +27,6 @@
     background-color: #f50669;
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px){
     .banner{
         background: url('../../imagens/Banner-CaMkt-Mobile-JPEG-2.jpg');
@@ -46,8 +41,8 @@
         justify-content: center;
     }
 
-    .container-banner button{
+    /* .container-banner button{
         /* margin-top: 680px; */
     }
-    
+     */
 }
