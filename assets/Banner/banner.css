@@ -1,4 +1,4 @@
-.banner{
+.container-banner{
     background: url('../../imagens/Banner-CaMkt-2.jpg');
     background-size: cover;
         background-repeat: no-repeat;
@@ -9,7 +9,6 @@
 
 .container-banner{
     display: flex;
-    height: 100%;
 }
 
 .container-banner button{
@@ -28,12 +27,13 @@
 }
 
 @media screen and (max-width: 768px){
-    .banner{
+    .container-banner{
         background: url('../../imagens/Banner-CaMkt-Mobile-JPEG-2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
         background-position: center;
+        height: 100vh;
+        max-width: 768px;
     }
 
     .container-banner{
@@ -42,7 +42,7 @@
     }
 
     .container-banner button{
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
   
 }
