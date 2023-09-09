@@ -28,12 +28,11 @@ section.midias-sociais .flex{
 .midias-sociais .texto button{
     background-color: #FD408E;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     font-size: 22px;
     color: #FFF;
     border-radius: 40px;
     border-style: none;
-    padding: 10px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
     margin-top: 30px;
     transition: 0.2s ease-in-out;
     cursor: pointer;
@@ -80,7 +79,7 @@ section.midias-sociais .flex{
     }
 
     .midias-sociais .texto p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .midias-sociais .texto button{
