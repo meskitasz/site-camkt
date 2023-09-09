@@ -1,7 +1,7 @@
-section.assessorias{
+section.midias-sociais{
     width: 100%;
     padding: 20px;
-    background-color: #D9DADC;
+    background-color: #FFF;
 }
 
 section.midias-sociais .flex{
@@ -11,7 +11,7 @@ section.midias-sociais .flex{
     justify-content: center;
 }
 
-.texto{
+.midias-sociais .container .flex .texto{
     margin-top: 150px
 }
 
@@ -67,37 +67,33 @@ section.midias-sociais .flex{
 /* mobile */
 
 @media screen and (max-width: 768px){
-    section.assessorias{
+    section.midias-sociais{
         height: 100%;
     }
 
-    section.assessorias  h2{
-        font-size: 30px;
-        padding: 30px;
+    .midias-sociais .container h2{
+        font-size: 36px;
     }
 
-    section.assessorias .container h2{
-        font-size: 35px;
-        margin-bottom: 30px;
+    .midias-sociais .container .flex .texto{
+        margin-top: 20px !important;
     }
 
-    .assessorias .cards{
-        width: 260px;
-        margin-top: 0;
+    .midias-sociais .texto p{
+        font-size: 16px;
     }
 
-    .assessorias .espaço{
-        margin-bottom: 45px;
+    .midias-sociais .texto button{
+        font-size: 16px;
     }
 
-    .assessorias .cards img{
-        width: 115px;
+    .slide{
+        margin-top: 5px !important;
+        width: 98% !important;
     }
 
-    .assessorias .cards h3{
-
-        font-size: 19px;
-        font-weight: 700;
+    .midias-sociais .texto button{
+        width: 100%;
     }
 
 }
