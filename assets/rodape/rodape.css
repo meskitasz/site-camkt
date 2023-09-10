@@ -32,6 +32,10 @@
     margin: 15px 0;
 }
 
+.rodape a{
+    line-height: 30px;
+}
+
 .rodape a:hover{ 
     color: #f188b4;
 }
