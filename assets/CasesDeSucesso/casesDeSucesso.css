@@ -1,0 +1,79 @@
+section.casesDeSucesso{
+    width: 100%;
+    padding: 20px;
+    background-color:lightgray;
+}
+
+.container-cases h4{
+    padding: 20px 0;
+}
+
+.cases-flex{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.espaço{
+    margin-bottom: 10px;
+}
+
+.card-cases img{
+    width: 95%;
+    border-radius: 20px;
+}
+
+.card-cases p{
+    text-align: center;
+}
+
+.card-cases{
+    border: solid 2px red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 450px;
+    gap: 5px;
+    background-color: #FFF;
+}
+
+
+
+.card-cases span{
+    font-family: "Poppins",sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.card-cases button{
+    margin-top: 15px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .casesDeSucesso .container-cases h4{  
+        font-size: 36px;
+    }
+
+    .cases-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-cases{
+        flex-direction: column;
+        width: 300px;
+        height: 370px;
+    }
+
+    .card-cases p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+}

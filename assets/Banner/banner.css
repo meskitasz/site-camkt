@@ -11,10 +11,6 @@ section.banner{
         background-position: center;
 }
 
-.container-banner{
-    /* display: flex; */
-}
-
 .container-banner button{
     border: none;
     border-radius: 20px;
