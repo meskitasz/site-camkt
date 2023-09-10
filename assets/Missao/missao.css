@@ -37,7 +37,7 @@ section.missao .flex{
 
 .missao .cards:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px #fd408f81;
+    box-shadow: 0 0 8px #f50669;
 }
 
 .missao .cards img{

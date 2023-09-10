@@ -1,0 +1,47 @@
+.rodape{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape .logo img{
+    width: 200px !important;
+}
+
+.rodape i{
+    padding: 5px;
+    font-size: 12px;
+    color: #FD408E;
+    transition: ease-in-out .2s;
+}
+
+.rodape i:hover{
+    color: #f188b4;
+}
+
+
+.rodape span{
+    color: #FD408E;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.rodape ul{
+    margin: 15px 0;
+}
+
+.rodape a:hover{ 
+    color: #f188b4;
+}
+
+@media screen and (max-width: 768px){
+    .rodape{
+        flex-direction: column;
+    }
+
+    .rodape .logo img{
+        width: 35%;
+    }
+}

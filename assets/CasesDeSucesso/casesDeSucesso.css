@@ -38,6 +38,11 @@ section.casesDeSucesso{
     height: 450px;
     gap: 5px;
     background-color: #FFF;
+    transition: ease-in-out .2s;
+}
+
+.card-cases:hover{
+    transform: scale(1.1);
 }
 
 

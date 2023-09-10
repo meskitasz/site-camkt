@@ -1,7 +1,7 @@
 section.assessorias{
     width: 100%;
     padding: 20px;
-    background: linear-gradient( #FD408E, #f188b4);
+    background-color: #fff;
 }
 
 .assessorias h2{
@@ -36,7 +36,7 @@ section.assessorias .flex{
 
 .assessorias .cards:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px #fd408f81;
+    box-shadow: 0 0 8px #f50669;
 }
 
 .assessorias .cards img{

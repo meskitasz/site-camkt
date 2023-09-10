@@ -4,13 +4,34 @@ section.sobreNos{
     padding: 20px;
 }
 
+.sobreNos h1{
+    margin: 20px 0;
+}
+
+.texto-sobrenos{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    width: 50%;
+    padding: 0 60px 0 0px;
+}
+
 .conteudo .imagem{
     display: flex;
-    width: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+.conteudo .imagem img{
+    width: 80%;
+    border-radius: 20px;
 }
 
 .texto-sobrenos button{
+    width: 50%;
     transition: ease-in-out .2s;
+    margin-top: 15px;
 }
 
 .texto-sobrenos button:hover{
@@ -20,6 +41,7 @@ section.sobreNos{
 .conteudo{
     display: flex;
     justify-content: center;
+    
 }
 @media screen and (max-width: 768px){
    section.sobreNos h1{
@@ -33,6 +55,7 @@ section.sobreNos{
    }
    .conteudo .imagem{
    justify-content: center;
+   width: 100%;
    }
 
    .conteudo .imagem img{
@@ -42,6 +65,7 @@ section.sobreNos{
 
    .texto-sobrenos{
     width: 100%;
+    padding: 0 ;
    }
 
    .texto-sobrenos p {
