@@ -28,12 +28,11 @@ section.casesDeSucesso{
 }
 
 .card-cases{
-    border: solid 2px red;
+    box-shadow: 0 5px 2px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items:center;
-    flex-wrap: wrap;
     width: 350px;
     height: 450px;
     gap: 5px;
@@ -42,7 +41,7 @@ section.casesDeSucesso{
 }
 
 .card-cases:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -73,12 +72,12 @@ section.casesDeSucesso{
         flex-direction: column;
         width: 300px;
         height: 370px;
+        gap: 0px;
     }
 
     .card-cases p{
         font-size: 14px;
         text-align: center;
     }
-
 
 }
